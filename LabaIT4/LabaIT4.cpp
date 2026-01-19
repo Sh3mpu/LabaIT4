@@ -3,7 +3,24 @@
 
 #include <iostream>
 
+using namespace std;
+
+void Initialize();
+void GetInput();
+void Update();
+void Render();
+void Shutdown();
+
 int main()
 {
     std::cout << "Hello Wofasfasfdasrld!\n";
+}
+
+void Initialize() {
+    cout << "Initializing ... " << endl;
+
+}
+
+void GetInput() {
+    cout << "Gettin input ... " << endl;
 }
